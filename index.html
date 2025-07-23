@@ -8,13 +8,9 @@
   <link rel="stylesheet" href="style.css" />
 
   <!-- Font Awesome -->
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"
-  />
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -38,12 +34,20 @@
   </header>
 
   <!-- Main Section -->
-  <main>
-    <section class="container">
+  <main class="container">
+    <section class="matches">
+      <!-- Sidebar -->
+      <div class="upcomeing-match-details">
+        <button class="btn-secoundary">Upcoming Match</button>
+        <button class="btn-secoundary">All Group</button>
+        <button class="btn-secoundary blog-btn">Blog</button>
+      </div>
+
+      <!-- Cards -->
       <div class="cards">
-        <!-- Card 1 -->
+        <!-- Repeatable Card -->
         <div class="card">
-          <img class="matches" src="./img/matches/matches_6.jpg" alt="Football player" />
+          <img src="./img/matches/matches_6.jpg" alt="Football player" />
           <div class="card-details">
             <button class="btn-2">Transfer</button>
             <p>Transfer Live: Chelsea in talks <br />over Kimpembe transfer.</p>
@@ -54,21 +58,9 @@
           </div>
         </div>
 
-        <!-- Repeat this card block -->
+        <!-- Add more cards -->
         <div class="card">
-          <img class="matches" src="./img/matches/matches_1.jpg" alt="Football player" />
-          <div class="card-details">
-            <button class="btn-2">Transfer</button>
-            <p>Transfer Live: Chelsea in talks <br />over Kimpembe transfer.</p>
-            <div class="card-footer">
-              <h3><i class="fa-regular fa-clock"></i> 10h</h3>
-              <h3><i class="fa-regular fa-comment"></i> 23</h3>
-            </div>
-          </div>
-        </div>
-
-        <div class="card">
-          <img class="matches" src="./img/matches/matches_4.jpeg" alt="Football player" />
+          <img src="./img/matches/matches_1.jpg" alt="Football player" />
           <div class="card-details">
             <button class="btn-2">Transfer</button>
             <p>Transfer Live: Chelsea in talks <br />over Kimpembe transfer.</p>
@@ -80,7 +72,7 @@
         </div>
 
         <div class="card">
-          <img class="matches" src="./img/matches/matches_3.jpg" alt="Football player" />
+          <img src="./img/matches/matches_4.jpeg" alt="Football player" />
           <div class="card-details">
             <button class="btn-2">Transfer</button>
             <p>Transfer Live: Chelsea in talks <br />over Kimpembe transfer.</p>
@@ -92,7 +84,7 @@
         </div>
 
         <div class="card">
-          <img class="matches" src="./img/matches/matches_4.jpeg" alt="Football player" />
+          <img src="./img/matches/matches_3.jpg" alt="Football player" />
           <div class="card-details">
             <button class="btn-2">Transfer</button>
             <p>Transfer Live: Chelsea in talks <br />over Kimpembe transfer.</p>
@@ -104,7 +96,19 @@
         </div>
 
         <div class="card">
-          <img class="matches" src="./img/matches/matches_5.webp" alt="Football player" />
+          <img src="./img/matches/matches_4.jpeg" alt="Football player" />
+          <div class="card-details">
+            <button class="btn-2">Transfer</button>
+            <p>Transfer Live: Chelsea in talks <br />over Kimpembe transfer.</p>
+            <div class="card-footer">
+              <h3><i class="fa-regular fa-clock"></i> 10h</h3>
+              <h3><i class="fa-regular fa-comment"></i> 23</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="./img/matches/matches_5.webp" alt="Football player" />
           <div class="card-details">
             <button class="btn-2">Transfer</button>
             <p>Transfer Live: Chelsea in talks <br />over Kimpembe transfer.</p>
